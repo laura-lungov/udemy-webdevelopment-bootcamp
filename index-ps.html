@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- meta utf-8 is the standard meta charset every html coding should contain. meta tags are also used by SEO engines to identify what the web page is about-->
+  <title>Laura's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!--tables are used for organizing information within a web page. They come accompanied by <table></table>, <tr></tr> (table rows) and <td></td> (table data) -->
+    <!--cellspacing defines the space between cells within a table-->
+    <tr>
+      <td><img src="/Users/lauralungov/Desktop/UX Design/Udemy UX & Web Design Master Course/Web Development/Lecture-130-exercise/Atom/web development/Html - Personal Site/laura.png" alt="Laura's profile picture" width="150px" height="150px"></td>
+      <!-- image tags are also self-closing tags. On a image tag you need to specify the source and give it a name in case it doesn't display on the browser, tipo uma legenda. You can also edit an image's size through width="XXpx" and height="XXpx"-->
+      <td>
+        <h1>Laura Bugelli's awesome</h1>
+        <p><em>Founder and CEO of <strong><a href="https://www.instagram.com/laura_lungov/">Laura's life</a></strong></em></p>
+        <!-- the <p></p> is used tfor setting paragraphs between textareas -->
+        <!-- the <i></i> or <em></em> are used to italicize textareas, however i only styles it, while em tells the server that the text needs to be emphasized, so it's preferrable to use the em tags -->
+        <!-- the <strong></strong> tags are used for turning text into Bold mode. You can also use <b></b>, however, just as with italicizing text, using strong is preferrable-->
+        <!-- use the anchor tag <a href="hyperlink.html"></a> to hyperlink part of text and re-direct the user to a different page. You add the link destination on the tag. the linked text goes between opening and closing anchor tags-->
+        <br>I am a brazilian genius living in Australia and trying to change my career path through learning coding and UX Design. I'll be ale to travel, have financial freedom and live the life that I want to live exploring this beautiful world of
+        ours!!</br>
+        <!-- the <br></br> is used for setting breaks between textareas and creates a longer distance between one paragraph and the next. they are self-closing tags that don't demand a closing tag to exist-->
+      </td>
+    </tr>
+  </table>
+  <hr size="1" noshade>
+  <!-- horizontal rule tags are self-closing tags that don't need a closing tag. they create horizontal lines on the page and their size, width and shading can be edited on the tag itself -->
+  <br>
+  <h3>Education - Languages Proficiency</h3>
+  <ul>
+    <li>Portuguese - mother language</li>
+    <li>English - fluent</li>
+    <li>Spanish - advanced</li>
+    <li>Italian - intermediate</li>
+    <li>French - beginner</li>
+  </ul>
+  <!-- <ul></ul> stands for Unordered Lists and rfers to a bullet list of items. Each separate item within a list must come withing the tags <li></li> -->
+  <!-- <ol></ol> stands for Ordered Lists and rfers to a list where the order of the items is important. You can choose the type of list (a,b,c or 1,2,3 or i,ii,iii) by adding <ol type="1"></ol>. Each separate item within a list must come withing the tags <li></li> -->
+  <br>
+  <hr size="1" noshade>
+  <h3>Work Experience</h3>
+  <table border="1" cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010 - 2013</td>
+        <td>Lead Developer at Tempo App</td>
+      </tr>
+      <tr>
+        <td>2014 - 2015</td>
+        <td>Researcher at The Institute of Cognitive Neurociences</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <!--<thead></thead>, <tr></tr> and <th></th>are used for adding titles to the columns. It is worth separating table head frp, table body and footer in order to be able to edit columns titles separately from columns content-->
+  <br>
+  <hr size="1" noshade>
+  <h3>Skills</h3>
+  <table cellspacing="15">
+    <tr>
+      <td>iOS Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Photography</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Painting</td>
+      <td>⭐⭐</td>
+    </tr>
+  </table>
+  <!--On Mac, you can use the keyboard combination command+control+space bar to openup the emoji keyboard-->
+  <!--You can also use nested tables (tables containing tables within) to organize content-->
+  <hr size="1" noshade>
+  <table cellspacing="15">
+    <tr>
+      <td>
+        <h3><a href="hobbies.html">Hobbies</a></h3>
+      </td>
+      <td>
+        <h3><a href="contact.html">Contact Me</a></h3>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

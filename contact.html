@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Laura Lungov Bugelli</h1>
+  <hr size="2" noshade>
+  <h3>My Contacts</h3>
+  <ul>
+    <li>Mobile - +61 0414 035 160</li>
+    <li>Email - laubugelli@gmail.com</li>
+  </ul>
+  <hr size="2" noshade>
+  <h3>Contact Me Form</h3>
+  <form action="mailto:laubugelli@gmail.com" method="post" enctype="text/plain">
+    <label>Subscribe to receive newsletter</label>
+    <input type="checkbox" name="subscribe">
+    <p>
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value="">
+    <p>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="">
+    <p>
+      <label>Date:</label>
+      <input type="date" name="date">
+    <p>
+      <label>Your Message:</label>
+      <br>
+      <textarea id="message" name="yourMessage" rows="5" cols="80">write your message here</textarea>
+      <br>
+      <input type="submit" name="">
+  </form>
+  <!--forms are created by using <form action="where the form will redirect the user" method="post" enctype="text/plain"></form> -->
+  <!--labels <label for=""></label> are the texts to identify the input areas-->
+  <!-- inputs <input type="the type of input necessary to fill that information" name="name to identify that input"> are used for adding data to the form-->
+  <!--textareas <textarea name="name to identify that input" rows="number of rows" cols="number of columns"></textarea> is the type of input that adds a large and customizable text box that can be completed by the user-->
+</body>
+
+</html>
